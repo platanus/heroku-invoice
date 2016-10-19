@@ -5,7 +5,10 @@ GEM
       rack
     httparty (0.14.0)
       multi_xml (>= 0.5.2)
+    mini_portile2 (2.1.0)
     multi_xml (0.5.5)
+    nokogiri (1.6.8.1)
+      mini_portile2 (~> 2.1.0)
     rack (2.0.1)
 
 PLATFORMS
@@ -14,6 +17,7 @@ PLATFORMS
 DEPENDENCIES
   hobbit
   httparty
+  nokogiri
 
 BUNDLED WITH
    1.12.5
