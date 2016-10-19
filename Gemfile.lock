@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    hobbit (0.6.1)
+      rack
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
+    multi_xml (0.5.5)
+    rack (2.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hobbit
+  httparty
+
+BUNDLED WITH
+   1.12.5
